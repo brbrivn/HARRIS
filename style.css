@@ -1,0 +1,125 @@
+/* ---- Imports ---- */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;800&family=Work+Sans:wght@400;600&display=swap");
+/* ----Global Styles----- */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+body {
+  min-height: 100vh;
+}
+
+img, picture, svg, video {
+  display: block;
+  max-width: 100%;
+}
+
+html {
+  color-scheme: dark light;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+.main-nav {
+  display: flex;
+  padding: 1.5em 3em;
+  margin: 0em 5em;
+  align-items: center;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+}
+.main-nav__nav-list {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  margin-left: auto;
+}
+.main-nav__list-item {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  cursor: pointer;
+}
+
+.hero {
+  padding: 10em 5em;
+  background: url(/img/backg.jpg) no-repeat center center;
+  background-size: cover;
+  text-align: center;
+}
+.hero__sub-heading {
+  font-size: 1rem;
+  color: #ffffff;
+  font-family: "Playfair Display", serif;
+}
+.hero__heading {
+  font-size: 3.5rem;
+  color: #ffffff;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+}
+
+.gallery {
+  margin-top: 3em;
+  margin-left: 5em;
+  margin-right: 5em;
+  display: block;
+}
+.gallery__sub-heading {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.gallery__heading {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.gallery__img-list {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  margin-top: 2.5em;
+}
+.gallery__img-list, .gallery img {
+  height: 100%;
+  width: 100%;
+}
+
+.footer {
+  display: block;
+  padding: 2.5em 0em 5em 0em;
+  margin: 0em 5em;
+  text-align: center;
+  justify-content: center;
+}
+.footer__social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer__icon {
+  margin: 0em 0.5em;
+  background-color: #000000;
+  border-radius: 50px;
+  padding: 0.35em;
+}
+.footer__copyright {
+  margin-top: 1.5em;
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.75rem;
+}
+
+hr {
+  margin-top: 3em;
+  border-color: #ecdddd;
+  border-width: 1.5px;
+  border-style: solid;
+}/*# sourceMappingURL=style.css.map */
