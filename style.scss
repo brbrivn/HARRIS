@@ -155,27 +155,68 @@ hr {
 }
 
 
-/* Large Extra Devices */
-@media (min-width: 1200px) {
-
-}
-
-/* Large Devices */
-@media (min-width: 992px) and (max-width: 1200px) {
-
-}
-
-/* Medium Devices */
-@media (min-width: 768px) and (max-width:992px) {
-
-}
-
-/* Small Devices */
-@media (min-width: 576px) and (max-width: 992px) {
-
-}
-
 /* Extra Small Devices */
-@media (max-width: 576px) {
+@media (max-width: 375px) {
     
+    .main-nav {
+        display: block;
+        padding: 1.5em 1em;
+        margin: 0;
+        align-items: center;
+
+        &__logo, svg {
+           margin: auto;
+        }
+
+        &__nav-list {
+            justify-content: center;
+            padding: .5em .25em;
+
+        }
+
+        &__list-item {
+            padding-left: 1em;
+            padding-right: 1em;
+            font-size: 1em;
+
+        }
+    }
+
+    .hero {
+        height: 75vh;
+        padding: 8em 2em;
+        font-size: 75%;
+
+        &__heading {
+            text-align: center;
+        }
+
+        
+
+    }
+
+
 }
+
+
+
+// /* Large Extra Devices */
+// @media (min-width: 1200px) {
+
+// }
+
+// /* Large Devices */
+// @media (min-width: 992px) and (max-width: 1200px) {
+
+// }
+
+// /* Medium Devices */
+// @media (min-width: 768px) and (max-width:992px) {
+
+// }
+
+// /* Small Devices */
+// @media (min-width: 576px) and (max-width: 992px) {
+
+// }
+
